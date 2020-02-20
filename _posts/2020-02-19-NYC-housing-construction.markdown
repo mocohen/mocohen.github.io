@@ -25,6 +25,6 @@ But when breaking it down by Borough, we can see that the housing production in 
 
 Council members have a lot of power in determining whether housing gets built in their districts. Looking at housing production by councilmember for Queens and Manhattan shows how much power council members have - only three councilmembers have allowed significant construction to occur in their districts.
 
-![Queens](/assets/nyc-housing/queens.png) ![Manhattan](/assets/nyc-housing/manhattan.png)
+![Queens](/assets/nyc-housing/Queens.png) ![Manhattan](/assets/nyc-housing/Manhattan.png)
 
 With the city declining in population due to decreases in family size in similarly sized apartments, the city should be doing more than producing ~25000 housing units every year. NYC provides a great economic opportunity to many people, and could be providing great opportunities to even more people if it were willing to grow as it did in the beginning of the 20th century, when it was adding over 100k residents per year.
