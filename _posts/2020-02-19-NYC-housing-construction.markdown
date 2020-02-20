@@ -28,4 +28,6 @@ Council members have a lot of power in determining whether housing gets built in
 ![Queens](/assets/nyc-housing/Queens.png) 
 ![Manhattan](/assets/nyc-housing/Manhattan.png)
 
-With the city declining in population due to decreases in family size in similarly sized apartments, the city should be doing more than producing ~25000 housing units every year. NYC provides a great economic opportunity to many people, and could be providing great opportunities to even more people if it were willing to grow as it did in the beginning of the 20th century, when it was adding over 100k residents per year.
+With the city declining in population due to decreases in family size in similarly sized apartments, the city should be doing more than producing ~25000 housing units every year. NYC provides a great economic opportunity to many people, and could be providing great opportunities to even more people if it were willing to grow as it did in the beginning of the 20th century, when it was adding over 100k residents per year. 
+
+The code used to generate these charts can be found [here](https://github.com/mocohen/mocohen.github.io/blob/master/assets/nyc-housing/NYC%20Housing%20Additions.ipynb)
