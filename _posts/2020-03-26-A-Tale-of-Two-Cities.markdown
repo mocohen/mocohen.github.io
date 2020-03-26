@@ -15,6 +15,10 @@ Here we can see what happens when social distancing starts only a few days earli
 
 Praise has been given to NY Governor Andrew Cuomo for his response to the coronovirus epidemic, but there appears from this data to be serious concerns that NY waited too long to implement serious 'Stay At Home' proceedures until the virus had spread quite far within the NY population, which has serious consequences for a state with the largest city in the country.
 
+One reason for the difference in responses may have been due to the difference in deaths in both places early on. In Washington, a senior facility was hit first with covid19. Since seniors are particularly susceptible to Covid19, a large portion of Washington's early cases unfortunately resulted in deaths. But, this may have jolted the state and local governments into more urgent action, thereby saving lives down the line.
+
+![deaths](/assets/covid19/total_deaths_state_linear.svg)
+
 I also took a look a closer look at data in King County, WA to see if we can pinpoint dates at which the school closure started helping. The incubation period for Covid-19 is between 2 and 11 days, so hopefully improvements should be visible after this date range.
 
 
