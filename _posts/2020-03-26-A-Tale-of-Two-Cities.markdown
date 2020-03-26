@@ -9,7 +9,7 @@ With Covid19 being the only thing in the news these days, I figured it would be 
 
 ![states linear](/assets/covid19/total_cases_state_linear.svg)
 
-Here we can see what happens when social distancing starts only a few days earlier. In Seattle and elsewhere in Washington State, school closures began on March 12th, while they did not begin until the 17th in NYC. School closures are not the only proceedure attempted by cities to promote social distancing, but should serve as a good proxy for when cities began implementing serious city closures.
+Here we can see what happens when social distancing starts only a few days earlier. In Seattle and elsewhere in Washington State, school closures began on March 12th, while they did not begin until the 17th in NYC. School closures are not the only proceedure attempted by cities to promote social distancing, but should serve as a good proxy for when cities began implementing serious city shutdowns.
 
 ![states log](/assets/covid19/total_cases_state_log.svg)
 
