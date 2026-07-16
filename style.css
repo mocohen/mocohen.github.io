@@ -308,6 +308,77 @@ h1, h2, .job-org, .role-title {
   margin-top: 0.2rem;
 }
 
+.pubs details {
+  width: 100%;
+}
+
+.pubs summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding-right: 1.5rem;
+  position: relative;
+}
+
+.pubs summary::-webkit-details-marker {
+  display: none;
+}
+
+.pubs summary::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0.35rem;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(-45deg);
+  transition: transform 0.15s ease;
+}
+
+.pubs details[open] summary::after {
+  transform: rotate(45deg);
+  top: 0.25rem;
+}
+
+.pubs summary:hover .pub-title {
+  color: var(--accent);
+}
+
+.pubs summary .pub-title,
+.pubs summary .pub-meta {
+  transition: color 0.15s ease;
+}
+
+.abstract {
+  margin: 0.9rem 0 0.2rem;
+  padding: 0.9rem 1rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.abstract p {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+}
+
+.pub-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.pub-link:hover {
+  text-decoration: underline;
+}
+
 .links {
   list-style: none;
   margin: 0;
