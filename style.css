@@ -42,9 +42,15 @@ body {
 }
 
 .title {
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.15rem;
   color: var(--muted);
   font-size: 1.05rem;
+}
+
+.location {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .bio {
@@ -72,21 +78,111 @@ body {
   font-size: 0.9rem;
 }
 
-.tags {
+.skills {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 0.75rem;
+}
+
+.skill-row dt {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.skill-row dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 520px) {
+  .skill-row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+
+.job {
+  margin-bottom: 1.75rem;
+}
+
+.job:last-child {
+  margin-bottom: 0;
+}
+
+.job-head {
+  margin-bottom: 0.5rem;
+}
+
+.job-org {
+  font-weight: 600;
+}
+
+.role {
+  margin-top: 0.75rem;
+}
+
+.role:first-of-type {
+  margin-top: 0;
+}
+
+.role-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.role-title {
+  font-weight: 500;
+}
+
+.role-dates {
+  color: var(--muted);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.bullets {
+  margin: 0.5rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.bullets li {
+  padding-left: 0.1rem;
+}
+
+.edu {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
-.tags li {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.3rem 0.85rem;
-  font-size: 0.9rem;
+.edu-degree {
+  display: block;
+  font-weight: 500;
+}
+
+.edu-school {
+  display: block;
   color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
 }
 
 .pubs {
